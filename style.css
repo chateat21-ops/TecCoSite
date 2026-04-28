@@ -812,6 +812,43 @@ footer {
   text-transform: uppercase;
 }
 
+/* ── DISCORD ── */
+.nav-discord {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #7289da !important;
+  font-weight: 500 !important;
+  transition: color var(--transition), text-shadow var(--transition) !important;
+}
+
+.nav-discord:hover {
+  color: #fff !important;
+  text-shadow: 0 0 12px rgba(114,137,218,0.8);
+}
+
+.nav-discord svg {
+  transition: transform var(--transition);
+}
+
+.nav-discord:hover svg {
+  transform: scale(1.15);
+}
+
+.footer-discord {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #7289da !important;
+  font-size: 13px;
+  text-decoration: none;
+  transition: color var(--transition);
+}
+
+.footer-discord:hover {
+  color: #fff !important;
+}
+
 /* ── RESPONSIVE ── */
 @media (max-width: 768px) {
   .nav-links { display: none; }
